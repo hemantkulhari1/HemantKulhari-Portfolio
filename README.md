@@ -16,7 +16,7 @@ It includes interactive elements like particle effects, a custom cursor, and smo
 ---
 
 ## 🚀 Live Demo
-🔗 [View Portfolio](https://your-portfolio-link.com)
+🔗 [View Portfolio]([https://your-portfolio-link.com](https://hemantkulhari-portfolio.netlify.app/))
 
 ---
 

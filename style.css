@@ -1,0 +1,80 @@
+body {
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  background-color: #0d0f1c;
+  color: #e0e7ff;
+  cursor: none; /* Hide default cursor */
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.particle {
+  position: fixed;
+  pointer-events: none;
+  width: 15px;
+  height: 15px;
+  background-color: #6366f1;
+  border-radius: 50%;
+  opacity: 0;
+  z-index: 10;
+  transition: opacity 0.5s ease-in-out;
+  transform: translate(-50%, -50%);
+}
+
+.particle-shape-1 {
+  border-radius: 50%;
+  background: linear-gradient(135deg, #6366f1, #3f47ff);
+}
+.particle-shape-2 {
+  border-radius: 20%;
+  background: linear-gradient(45deg, #38bdf8, #22d3ee);
+}
+.particle-shape-3 {
+  border-radius: 50% 20% 50% 20%;
+  background: linear-gradient(135deg, #8b5cf6, #a855f7);
+}
+.particle-shape-4 {
+  transform: rotate(45deg);
+  background: linear-gradient(135deg, #f97316, #fb923c);
+}
+
+.active {
+  opacity: 1;
+}
+
+.hero-section {
+  min-height: calc(100vh - 80px); /* Adjust for navbar */
+}
+
+.download-btn {
+  background-color: #4f46e5;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.download-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(79, 70, 229, 0.4);
+}
+
+.card {
+  background-color: #1a1e36;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.custom-cursor {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #818cf8;
+  position: fixed;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  transition: width 0.3s ease, height 0.3s ease, background-color 0.3s ease;
+}

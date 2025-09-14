@@ -41,7 +41,10 @@ portfolio/
 ---
 
 ## 📸 Preview
-(Add a screenshot of your portfolio here)
+<div align="center">
+  <img src="/portfolio-preview/portfolio_img1.png" alt="Portfolio screenshot 1" width="48%" style="padding-right:5px;">
+  <img src="/portfolio-preview/portfolio_img2.png" alt="Portfolio screenshot 2" width="48%">
+</div>
 
 ---
 
